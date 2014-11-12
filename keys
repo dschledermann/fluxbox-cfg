@@ -39,7 +39,7 @@ OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 OnTitlebar Mouse2 :StartTabbing
 
 # double click on the titlebar to shade
-OnTitlebar Double Mouse1 :Shade
+OnTitlebar Double Mouse1 :Maximize
 
 # right click on the titlebar for a menu of options
 OnTitlebar Mouse3 :WindowMenu
