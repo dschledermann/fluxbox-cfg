@@ -39,7 +39,7 @@ OnWindow Mod4 Mouse3 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
 OnTitlebar Mouse2 :StartTabbing
 
 # double click on the titlebar to shade
-OnTitlebar Double Mouse1 :Maximize
+OnTitlebar Double Mouse1 :Shade
 
 # right click on the titlebar for a menu of options
 OnTitlebar Mouse3 :WindowMenu
@@ -65,7 +65,9 @@ Mod4 9 :Tab 9
 
 # open a terminal
 #Mod1 F1 :Exec xterm -geometry 165x40+50+80
-Mod1 F1 :Exec eval $(xdotool getmouselocation --shell); X=$(($X-400)); Y=$(($Y - 200)); xterm -geometry 165x40+$X+$Y
+#Mod1 F1 :Exec eval $(xdotool getmouselocation --shell); X=$(($X-400)); Y=$(($Y - 200)); xterm -geometry 165x40+$X+$Y
+Mod1 F1 :Exec urxvt
+
 
 
 # open a dialog to run programs

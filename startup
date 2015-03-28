@@ -5,7 +5,7 @@
 # Lines starting with a '#' are ignored.
 
 # Change your keymap:
-xmodmap "/home/daniel/.Xmodmap"
+#xmodmap "/home/daniel/.Xmodmap"
 xrdb ~/.Xdefaults &
 nm-applet &
 fbsetbg ~/billeder/2010-juli-12/IMAG0049.jpg &
@@ -15,10 +15,12 @@ conky &
 clipit &
 pidgin &
 skype &
+emacs &
+firefox &
 kupfer --no-splash &
 xscreensaver -nosplash &
+compton -bcCGf -e 0.85 -O 0.05 -D 10 --glx-copy-from-front &
 /usr/lib/notification-daemon/notification-daemon &
-tilda -h &
 
 
 # Applications you want to run with fluxbox.
