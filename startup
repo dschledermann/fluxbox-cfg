@@ -19,7 +19,8 @@ emacs &
 firefox &
 kupfer --no-splash &
 xscreensaver -nosplash &
-compton -bcCGf -e 0.85 -O 0.05 -D 10 --glx-copy-from-front &
+~/apache/start_apache.sh &
+compton -bcCGf -e 0.85 -O 0.05 -D 10 &
 /usr/lib/notification-daemon/notification-daemon &
 
 

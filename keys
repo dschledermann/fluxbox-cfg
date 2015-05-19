@@ -64,9 +64,10 @@ Mod4 8 :Tab 8
 Mod4 9 :Tab 9
 
 # open a terminal
-#Mod1 F1 :Exec xterm -geometry 165x40+50+80
+#Mod1 F1 :Exec xterm -geometry 165x40
 #Mod1 F1 :Exec eval $(xdotool getmouselocation --shell); X=$(($X-400)); Y=$(($Y - 200)); xterm -geometry 165x40+$X+$Y
-Mod1 F1 :Exec urxvt
+#Mod1 F1 :Exec urxvt
+Mod1 F1 :Exec xterm
 
 
 
