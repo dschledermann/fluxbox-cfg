@@ -1,0 +1,17 @@
+XTerm*background: rgb:24/24/24
+XTerm*foreground: rgb:8A/E2/34
+XTerm*faceSize: 11
+XTerm*faceName: Bitstream Vera Sans Mono
+XTerm*savelines: 16384
+xterm*VT100.geometry: 150x40
+URxvt*background: rgb:24/24/24
+URxvt*foreground: rgb:8A/E2/34
+URxvt*font: xft:Bitstream Vera Sans Mono:antialias=true:pixelsize=15
+URxvt*scrollBar: false
+URxvt*geometry: 130x40
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: /usr/bin/firefox
+URxvt*matcher.button: 1
+URxvt*colorUL: #4682B4
+URxvt*backgroundPixmap: .fluxbox/urxtv-bg.xpm;style=tiled
+URxvt*cursorBlink: true
