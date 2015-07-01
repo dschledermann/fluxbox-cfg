@@ -8,7 +8,7 @@
 #xmodmap "/home/daniel/.Xmodmap"
 xrdb ~/.Xdefaults &
 nm-applet &
-fbsetbg ~/billeder/2010-juli-12/IMAG0049.jpg &
+fbsetbg Desktop/Uluru-Ayers-Rock-Moonset.jpg &
 gtk-theme-switch2 /usr/share/themes/Clearlooks &
 volumeicon &
 conky &

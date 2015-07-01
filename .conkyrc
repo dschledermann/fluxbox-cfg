@@ -37,7 +37,7 @@ draw_shades no
 use_xft yes
 xftfont DejaVu Sans Mono:size=11
 #xftfont Terminus:size=10
-gap_x 250
+gap_x 150
 gap_y 50
 minimum_size 760 750
 maximum_width 1060
@@ -61,9 +61,9 @@ double_buffer yes
 TEXT
 ${color grey}Batteri: $color${battery_percent BAT0}% - ${battery_time}${alignr}$color${battery_bar 6,700 BAT0}
 $hr
-${color grey}em1:${goto 100}$color${addr em1} \
-	${goto 250}${color grey}▲ $color${upspeed em1}       ${goto 350}${upspeedgraph em1 20,270 8AE234 FFFFFF -t -l} \
-	${goto 680}${color grey}▼ $color${downspeed em1}     ${goto 780}${downspeedgraph em1 20,270 8AE234 FFFFFF -t -l}
+${color grey}eth0:${goto 100}$color${addr eth0} \
+	${goto 250}${color grey}▲ $color${upspeed eth0}       ${goto 350}${upspeedgraph eth0 20,270 8AE234 FFFFFF -t -l} \
+	${goto 680}${color grey}▼ $color${downspeed eth0}     ${goto 780}${downspeedgraph eth0 20,270 8AE234 FFFFFF -t -l}
 ${color grey}wlan0:${goto 100}$color${addr wlan0} \
 	${goto 250}${color grey}▲ $color${upspeed wlan0}     ${goto 350}${upspeedgraph wlan0 20,270 8AE234 FFFFFF -t -l} \
 	${goto 680}${color grey}▼ $color${downspeed wlan0}   ${goto 780}${downspeedgraph wlan0 20,270 8AE234 FFFFFF -t -l}
