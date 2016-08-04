@@ -64,12 +64,7 @@ Mod4 8 :Tab 8
 Mod4 9 :Tab 9
 
 # open a terminal
-#Mod1 F1 :Exec xterm -geometry 165x40
-#Mod1 F1 :Exec eval $(xdotool getmouselocation --shell); X=$(($X-400)); Y=$(($Y - 200)); xterm -geometry 165x40+$X+$Y
-#Mod1 F1 :Exec urxvt
 Mod1 F1 :Exec xterm
-
-
 
 # open a dialog to run programs
 Mod1 F2 :Exec fbrun
@@ -83,6 +78,14 @@ Mod4 t :Exec thunderbird
 # Skift skaermtilstand
 Mod4 l :Exec /home/daniel/bin/laptop.sh
 Mod4 k :Exec /home/daniel/bin/kontor.sh
+
+# Lyset
+XF86MonBrightnessUp :Exec xbacklight -steps 1 -time 0 -inc 10
+XF86MonBrightnessDown :Exec xbacklight -steps 1 -time 0 -dec 10
+
+# Lyden
+XF86AudioRaiseVolume :Exec amixer -c 1 -- sset Master playback 4dB+
+XF86AudioLowerVolume :Exec amixer -c 1 -- sset Master playback 4dB-
 
 # Screen shot
 Print :Exec import ~/Billeder/screen-`date +%Y-%m-%d.%H%M%S`.png

@@ -16,12 +16,13 @@ clipit &
 pidgin &
 skype &
 emacs &
-firefox &
+google-chrome &
 kupfer --no-splash &
 xscreensaver -nosplash &
 ~/apache/start_apache.sh &
 compton -bcCGf -e 0.85 -O 0.05 -D 10 &
 /usr/lib/notification-daemon/notification-daemon &
+# emacsclient -n projekter/tidsforbrug/$(date +"%Y/%B/%d").org &
 
 
 # Applications you want to run with fluxbox.
