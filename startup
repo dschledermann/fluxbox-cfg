@@ -13,16 +13,20 @@ gtk-theme-switch2 /usr/share/themes/Clearlooks &
 volumeicon &
 conky &
 clipit &
-pidgin &
-skype &
+#pidgin &
+#skype &
 emacs &
+# && emacsclient -n projekter/tidsforbrug/$(date +"%Y/%B/%d").org &
+#slack &
 google-chrome &
-kupfer --no-splash &
+#kupfer --no-splash &
 xscreensaver -nosplash &
 ~/apache/start_apache.sh &
-compton -bcCGf -e 0.85 -O 0.05 -D 10 &
+compton -bCGf -e 0.95 -O 0.05 -D 10 &
+vboxmanage startvm ubuntu-16-04 --type headless &
+#vboxmanage startvm centos-7 --type headless &
 /usr/lib/notification-daemon/notification-daemon &
-# emacsclient -n projekter/tidsforbrug/$(date +"%Y/%B/%d").org &
+
 
 
 # Applications you want to run with fluxbox.
